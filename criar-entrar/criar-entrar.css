@@ -1,0 +1,72 @@
+main {
+    margin: auto;
+    display: block;
+	width: 80%;
+    height: 450px;
+    padding-top: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgba(255, 255, 255, 0.849);
+    font-family: sans-serif;
+}
+
+form {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 50%;
+}
+
+form input {
+    width: 100%;
+    height: 27px;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 12px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    text-align: justify;
+    border-width: 1px;
+    border-color: #ffffff5e;
+    border-radius: 3px;
+    padding-left: 13px;
+}
+
+form input[type=submit] {
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-top: 33px;
+    padding-left: 0px;
+    border-radius: 6px;
+    background-color: #0163dc;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+form input[type=submit][name=criar-conta] {
+    background-color: rgb(12, 161, 12);
+}
+
+form h2 {
+	padding-top: 50px;
+    text-align: left;
+}
+
+#entrar, #criar {
+    float: left;
+    width: 49.9%;
+    height: 85%;
+    background-color: #ffffffd3;
+    margin-top: 2%;
+    border: white;
+    border-left-style: inset;
+    border-width: 1px;
+}
+
+#esq-senha {
+    font-size: 11px;
+    color: rgb(94, 93, 93);
+}

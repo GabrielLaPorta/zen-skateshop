@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>ZEN SKATESHOP</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../menu/menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="produto-detalhes.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script src="../menu/menu.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <h1 id="zen-skateshop"><a href="../inicio/inicio.html">ZEN SKATESHOP</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="../produtos/skate.html">SKATE</a></li>
+                    <li><a href="../produtos/roupas.html">ROUPAS</a></li>
+                    <li><a href="../produtos/tenis.html">TÊNIS</a></li>
+                </ul>
+            </nav>
+            <div id="menu-icons">
+                <a href="../criar-entrar/criar-entrar.html">
+                    <img id="account-icon" src="../imagens/account-icon.png" alt="icone criar-entrar">
+                </a>
+                <a href="../carrinho/carrinho.html">
+                    <img id="cart-icon" src="../imagens/cart-icon.png" alt="icone carrinho">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="produto">
+            <div id="imagem">
+                <figure>
+                    <img src="../imagens/roupas/casacos/jaqueta-nike-sb-corta-vento-preto-camo.jpg" alt="Imagem principal do produto">
+                </figure>
+            </div>
+            <div id="produto-detalhes">
+                <h2>JAQUETA NIKE SB CORTA VENTO PRETO CAMO</h2><br>
+                <h3>R$ 344,90</h3><br>
+                <div id="produto-favorito"></div>
+                <p>Adicionar aos favoritos</p>
+                <button>Adicionar ao carrinho</button><br>
+
+                <form action="URL" method="POST">
+                    <label for="frete">Calcular Frete</label>
+                    <input type="text" name="cep"
+                            id="cep-frete" 
+                            required 
+                            placeholder="_____-___"
+                            minlength="9">
+                    <input type="submit" value="OK" id="ok-btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Zen Skateshop ©</p>     
+        <p>desenvolvido por Gabriel de La Porta Martins</p>
+    </footer>
+    <script src="produto-detalhes.js"></script>
+</body>
+</html>
